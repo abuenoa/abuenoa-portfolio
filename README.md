@@ -17,7 +17,7 @@ Ingeniero especializado en **Cloud Computing, desarrollo Backend y seguridad en 
 - Desarrollo y Customer Support en el proyecto [Oblysis](https://www.minsait.com/es/oblysis) 
 
 ### 🔵  **Solution Assistant** | [NTT DATA](https://www.nttdata.com/global/en/) *(Nov 2021 - Ene 2023)*
-- Desarrollo fullStack en el proyecto SIGLO([Logistica Saniaria en Andalucia](https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/proveedores/siglo-empresas))
+- Desarrollo fullStack en el proyecto [SIGLO]((https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/proveedores/siglo-empresas))
 
 ---
 
