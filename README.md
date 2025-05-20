@@ -1,40 +1,70 @@
-# ¡Hola, soy Antonio Bueno Antón [Bad Tony]! 👋
 
-## Acerca de mí
+# 👋  Hola, soy Antonio Bueno Ant贸n
 
-Soy un apasionado desarrollador FullStack con experiencia significativa en el desarrollo backend utilizando Java y SpringBoot. Mi enfoque principal es crear soluciones robustas y escalables que cumplan con los requisitos del negocio.
+Ingeniero especializado en **Cloud Computing, desarrollo Backend y seguridad en la nube**. Actualmente estoy cursando un Máster en **Cloud Computing y Seguridad de Redes** en la Universidad de Bolton (Reino Unido). Soy proactivo, me encanta trabajar en equipo y busco la excelencia y profesionalidad en cada desarrollo.
 
-- 💼 Actualmente trabajo como desarrollador backend en Minsait [Indra].
-- 🌱 Me encanta aprender nuevas tecnologías y mejorar mis habilidades constantemente.
+📫 **Contacto rápido:**
+- 📧 [antonio.buenoanton@gmail.com](mailto:antonio.buenoanton@gmail.com)
+- 📞 +34 637 397 160 / +44 7342 342458
+- 💼 [LinkedIn](https://www.linkedin.com/in/abuenoan)
 
-## Experiencia
+---
 
-- 🚀 Desarrollador Backend en Minsait - Enero 2023 - Presente
-- 🚀 Desarrollador Backend en NTTDATA - Noviembre 2021 - Diciembre 2022
+## 💻  Experiencia Profesional
 
-## Tecnologías
+### 🟢 **Consultor** | [MINSAIT](https://www.minsait.com/es) *(Ene 2023 - Nov 2024)*
+- Desarrollo de la plataforma PaaS [OneSait Platform](https://dev.onesaitplatform.com/)
+- Desarrollo y Customer Support en el proyecto [Oblysis](https://www.minsait.com/es/oblysis) 
 
-- Java
-- SpringBoot, SpringCloud, AWS
-- HTML, CSS, JavaScript, PHP
-- Tecnologias SQL, MongoDB
-- Kafka, StreemSets
-- Jira, Git, Postman
+### 🔵  **Solution Assistant** | [NTT DATA](https://www.nttdata.com/global/en/) *(Nov 2021 - Ene 2023)*
+- Desarrollo fullStack en el proyecto SIGLO (Logistica Saniaria en Andalucia)
 
-## Portafolio
+---
 
-¡Bienvenido a mi repositorio de GitHub! Aquí encontrarás una variedad de proyectos personales que demuestran mis habilidades como desarrollador FullStack. Siéntete libre de explorar y contribuir.
+## 🎓 Formación
 
-### Proyectos destacados
+- **Máster en Cloud Computing y Seguridad de Redes** *(2024-2025)*  
+  *The University of Bolton (Manchester, UK)*
+  
+- **Grado en Ingeniería Informática y Tecnologías Virtuales** *(2018-2023)*  
+  *Universidad Loyola Andalucía, España*  
+  *(Tercer mejor estudiante de mi promoción)*
 
-1. [Proyecto 1](enlace_al_proyecto_1): Breve descripción del proyecto.
-2. [Proyecto 2](enlace_al_proyecto_2): Breve descripción del proyecto.
-3. [Proyecto 3](enlace_al_proyecto_3): Breve descripción del proyecto.
+---
 
-## Contacto
+## 🛠️ Habilidades Técnicas
 
-- 📧 Email: antonio.buenoanton@gmail.com / abuenoanton@al.uloyola.es
-- 🔗 LinkedIn: https://www.linkedin.com/in/abuenoan/
-- 🌐 Sitio web: [Tu Sitio Web](enlace_a_tu_sitio_web)
+**Lenguajes de programación:**  
+`Java` `SpringBoot` `Python` `Bash` `JavaScript` `HTML/CSS`
 
-¡Gracias por visitar mi perfil! Si tienes alguna pregunta, sugerencia o simplemente quieres conectarte, ¡no dudes en ponerte en contacto conmigo!
+**Infraestructura Cloud:**  
+`Docker` `Kubernetes` `OpenShift` `AWS` `Terraform` `Helm`
+
+**Bases de datos:**  
+`SQL` `MongoDB` `PostgreSQL` `Redis`
+
+**CI/CD y DevOps:**  
+`GitLab` `Jenkins` `GitHub Actions` `SonarQube` `Jira`
+
+**Streaming y datos en tiempo real:**  
+`Kafka` `MQTT` `NodeRed` `StreamSets`
+
+**Monitorizaci贸n y Testing:**  
+`Grafana` `JMeter` `JUnit` `Mockito` `Graylog`
+
+---
+
+## 🌍 Idiomas
+- 🇪🇸 **Español:** Nativo
+- 馃嚞馃嚙 **Inglés:** Cambridge English Certificate C1 *(Julio 2024)*
+
+---
+
+## 🇬🇧 Mi CV
+Puedes descargar mi curr铆culum completo en formato PDF desde aqu铆:
+
+[**📄  Descargar CV**](./CV/BuenoAnton_Antonio_CV_2025.pdf)
+
+---
+
+✨ Gracias por visitar mi repositorio. Estoy abierto a colaboraciones y propuestas interesantes!
