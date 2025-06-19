@@ -61,7 +61,7 @@ Ingeniero especializado en **Cloud Computing, desarrollo Backend y seguridad en 
 ---
 
 ## 🇬🇧 Mi CV
-Puedes descargar mi curr铆culum completo en formato PDF desde aqu铆:
+Puedes descargar mi curriculum completo en formato PDF desde aqui:
 
 [**📄  Descargar CV**](./BuenoAnton_Antonio_CV_2025(ESP).pdf)
 
