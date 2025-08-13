@@ -57,7 +57,31 @@ Las imágenes base (como `alpine`, `debian-slim`, `ubuntu`, etc.) cambian con el
 
 **Enlace al proyecto completo:** [github.com/abuenoa/acr-vuln-density](https://github.com/abuenoa/acr-vuln-density)  
 
----
+
+### ​ Windy – WeatherAppBolton (colaboración de equipo)
+
+**Descripción breve**  
+Portal frontend + backend serverless para consultar datos meteorológicos.  
+- **Frontend:** HTML/CSS/JS, interfaz sencilla y responsive.  
+- **Backend:** Funciones AWS Lambda en Python que consumen APIs (outras como OpenWeather o similares) y exponen datos al frontend.
+
+**Problema abordado**  
+Crear una aplicación web ágil e intuitiva para consultar el tiempo, utilizando arquitectura serverless para reducir costes de infraestructura, escalabilidad y mantener un despliegue ligero y eficiente.
+
+**Tecnologías usadas**  
+- **Frontend:** HTML, CSS, JavaScript puro (sin frameworks pesados), diseño responsive.  
+- **Backend:** Python + AWS Lambda, posiblemente con layers o integración con API Gateway.  
+- **Infraestructura:** Serverless (sin servidor fijo), APIs externas, despliegue a través de GitHub Actions o manual.
+
+**Mi rol como colaborador**  
+- Implementación de funciones Lambda para consultar y procesar datos meteorológicos.  
+- Integración entre frontend y backend, garantizando baja latencia.  
+- Asistencia en despliegue y testing de extremo a extremo (end-to-end), incluyendo pruebas y ajustes UX.
+
+**Enlace al proyecto completo:**  
+- Frontend: [WeatherAppBolton/windy-frontend](https://github.com/WeatherAppBolton/windy-frontend)  
+- Backend: [WeatherAppBolton/windy-backend](https://github.com/WeatherAppBolton/windy-backend)
+
 
 ## 🎓 Formación  
 
