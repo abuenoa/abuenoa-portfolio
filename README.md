@@ -5,7 +5,7 @@ Soy proactivo, flexible y me apasiona trabajar en equipo, manteniendo siempre al
 
 📫 **Contacto rápido:**  
 - 📧 **Email:** antonio.buenoanton@gmail.com  
-- 📞 **Teléfono:** +34 637 397 16
+- 📞 **Teléfono:** +34 637 397 160
 - 💼 **LinkedIn:** [linkedin.com/in/abuenoan](https://www.linkedin.com/in/abuenoan)  
 
 ---
@@ -32,6 +32,30 @@ Soy proactivo, flexible y me apasiona trabajar en equipo, manteniendo siempre al
 - Consultas a BBDD SQL y NoSQL.  
 - Debugging e incidencias en entornos virtualizados.  
 - Documentación y trato directo con cliente.  
+
+---
+
+## 🚀 Proyectos Destacados
+
+### 🛡️ ACR Vulnerability Density
+**Descripción breve**  
+Pipeline empírico y reproducible para analizar la densidad de vulnerabilidades y su evolución temporal en imágenes base almacenadas en Azure Container Registry (ACR), usando Trivy. Escanea imágenes seleccionadas en cuatro momentos (T0–T3), consolida los resultados y genera gráficos listos para tu TFM o análisis académico.
+
+**Problema abordado**  
+Las imágenes base (como `alpine`, `debian-slim`, `ubuntu`, etc.) cambian con el tiempo, y sus vulnerabilidades pueden crecer o desplazarse incluso sin modificaciones directas. Este proyecto cuantifica ese **drift de vulnerabilidades**, ayudando a evaluar riesgos recurrentes en pipelines de CI/CD.
+
+**Tecnologías usadas**  
+- Infraestructura como código: **Terraform** (infraestructura ACR + RG en Azure)  
+- Automatización de procesos: Shell scripts (`bash`) para login, pull/tag/push, escaneo con Trivy  
+- Análisis y visualización: **Python** (pandas + matplotlib)  
+- Diseño reproducible: `Makefile`, versiones fijadas (`pyenv`, Trivy DB), logs de herramientas para trazabilidad
+
+**Impacto / Resultados**  
+- Permite medir la densidad de vulnerabilidad normalizada por MB: `(CRITICAL + HIGH) / size_mb`  
+- Generación de CSV comparativos y gráficos semanales (T0 a T3) con evolución de CVEs y crecimiento acumulado  
+- Alta reproducibilidad: versiones del escáner, identidades de paquetes y timestamps registrados automáticamente
+
+**Enlace al proyecto completo:** [github.com/abuenoa/acr-vuln-density](https://github.com/abuenoa/acr-vuln-density)  
 
 ---
 
