@@ -19,7 +19,7 @@ Soy proactivo, flexible y me apasiona trabajar en equipo, manteniendo siempre al
 - Gestión completa de pipelines DevOps: **GitLab CI/CD**, despliegues en **Azure, AWS y GCP**, aprovisionamiento de infraestructura y automatización.  
 - Integración de herramientas colaborativas (Slack, Jira) y aseguramiento de calidad en las entregas.  
 
-### 🟢 Analista de Software | **Minsait** (Ene 2023 – Nov 2024, Sevilla, España)  
+### 🔵 Analista de Software | **Minsait** (Ene 2023 – Nov 2024, Sevilla, España)  
 - Backend en **Java SpringBoot** sobre Docker y despliegue en **OpenShift/Kubernetes**.  
 - Gestión de señales con **MQTT**, **NodeRed** y **StreamSets**.  
 - Administración de BBDD SQL y NoSQL.  
@@ -58,7 +58,7 @@ Las imágenes base (como `alpine`, `debian-slim`, `ubuntu`, etc.) cambian con el
 **Enlace al proyecto completo:** [github.com/abuenoa/acr-vuln-density](https://github.com/abuenoa/acr-vuln-density)  
 
 
-### ​ Windy – WeatherAppBolton (colaboración de equipo)
+### ​⛅ Windy – WeatherAppBolton (colaboración de equipo)
 
 **Descripción breve**  
 Portal frontend + backend serverless para consultar datos meteorológicos.  
@@ -74,7 +74,10 @@ Crear una aplicación web ágil e intuitiva para consultar el tiempo, utilizando
 - **Infraestructura:** Serverless (sin servidor fijo), APIs externas, despliegue a través de GitHub Actions o manual.
 
 **Mi rol como colaborador**  
-- Implementación de funciones Lambda para consultar y procesar datos meteorológicos.  
+- Implementación de funciones Lambda para consultar y procesar datos meteorológicos.
+- Gestión de Roles y Usuarios mediante el servicio IAM.
+- Gestión de APIs mediante API Gateway en AWS.
+- Gestión de Alarmas y notificaciones mediante SNS y CloudWatch.
 - Integración entre frontend y backend, garantizando baja latencia.  
 - Asistencia en despliegue y testing de extremo a extremo (end-to-end), incluyendo pruebas y ajustes UX.
 
