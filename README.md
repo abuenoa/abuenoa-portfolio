@@ -5,7 +5,7 @@ Soy proactivo, flexible y me apasiona trabajar en equipo, manteniendo siempre al
 
 📫 **Contacto rápido:**  
 - 📧 **Email:** antonio.buenoanton@gmail.com  
-- 📞 **Teléfono:** +34 637 397 160
+- 📞 **Teléfono:** +34 637 397 160  
 - 💼 **LinkedIn:** [linkedin.com/in/abuenoan](https://www.linkedin.com/in/abuenoan)  
 
 ---
@@ -56,6 +56,37 @@ Las imágenes base (como `alpine`, `debian-slim`, `ubuntu`, etc.) cambian con el
 - Alta reproducibilidad: versiones del escáner, identidades de paquetes y timestamps registrados automáticamente
 
 **Enlace al proyecto completo:** [github.com/abuenoa/acr-vuln-density](https://github.com/abuenoa/acr-vuln-density)  
+
+
+### 🗂️ Architecture Diagram – Diagram-as-Code
+**Descripción breve**  
+Repositorio público de ejemplo en el que muestro cómo crear **diagramas de arquitectura como código** utilizando la librería [Diagrams de Mingrammer](https://diagrams.mingrammer.com/).  
+El proyecto genera un **diagrama multi-cloud genérico** (usuarios → CDN → WAF → Load Balancer → Web/API → Cache/Workers/DB, junto con CI/CD y observabilidad), demostrando buenas prácticas de documentación de arquitecturas sin exponer información sensible.
+
+**Problema abordado**  
+La documentación de arquitecturas suele quedar obsoleta rápidamente cuando se hace en diagramas manuales (Visio, Draw.io, etc.). Con un enfoque *diagram-as-code* se obtiene:
+- **Versionado en Git** (histórico de cambios y revisiones en PRs).  
+- **Reproducibilidad** (ejecución automática del script para regenerar diagramas).  
+- **Anonimización** de entornos reales mediante ejemplos genéricos.
+
+**Tecnologías usadas**  
+- **Python** + [Diagrams (mingrammer)](https://github.com/mingrammer/diagrams)  
+- **Graphviz** como motor de renderizado  
+- Ejecución reproducible mediante entorno virtual y `requirements.txt`
+
+**Mi rol y aportación**  
+- Creación de un **ejemplo multi-cloud genérico**, reutilizando distintos iconos (Azure, GCP, Redis, Kafka, GitLab, Jenkins, Prometheus, Grafana, etc.).  
+- Redacción de documentación y README orientados a mostrar el proyecto como **herramienta didáctica y de portfolio**.  
+- Configuración de buenas prácticas: `.gitignore`, licencia MIT, dependencias claras.  
+
+**Impacto / Resultados**  
+- Repo público que cualquiera puede clonar y usar como **plantilla de diagramas de arquitectura**.  
+- Proyecto que muestra mi capacidad de combinar **infraestructura cloud**, **buenas prácticas de DevOps** y **documentación clara**.  
+- Ejemplo reutilizable para equipos que necesiten diagramar sin exponer infra real.  
+
+**Enlace al proyecto completo:** [github.com/abuenoa/architecture-diagram-example](https://github.com/abuenoa/architecture-diagram-example)  
+
+> Créditos: este proyecto se apoya en la librería **Diagrams** creada por [@mingrammer](https://github.com/mingrammer), a quien agradezco por hacer posible esta forma de diagramar infraestructuras con Python.  
 
 
 ### ​⛅ Windy – WeatherAppBolton (colaboración de equipo)
