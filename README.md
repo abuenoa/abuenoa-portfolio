@@ -1,166 +1,167 @@
-# 👋 Hola, soy Antonio Bueno Antón  
+# 👋 Hi, I'm Antonio Bueno Antón
 
-Ingeniero especializado en **Cloud Computing**, **desarrollo backend** y **seguridad en la nube**, con experiencia en despliegue seguro de infraestructuras usando **Docker** y **Kubernetes**. Actualmente curso un **Máster en Cloud Computing y Seguridad de Redes** en la *University of Bolton* (Reino Unido).  
-Soy proactivo, flexible y me apasiona trabajar en equipo, manteniendo siempre altos estándares de calidad y profesionalidad.  
+Engineer specializing in **Cloud Computing**, **backend development**, and **cloud security**, with experience in secure infrastructure deployment using **Docker** and **Kubernetes**. I am currently pursuing a **Master's in Cloud Computing and Network Security** at the *University of Bolton* (UK).
 
-📫 **Contacto rápido:**  
-- 📧 **Email:** antonio.buenoanton@gmail.com  
-- 📞 **Teléfono:** +34 637 397 160  
-- 💼 **LinkedIn:** [linkedin.com/in/abuenoan](https://www.linkedin.com/in/abuenoan)  
+I am proactive, flexible, and passionate about teamwork, always maintaining high standards of quality and professionalism.
 
----
-
-## 💻 Experiencia Profesional  
-
-### 🟢 Lead Backend Engineer & DevOps Coordinator | **Omega – SEL Employer** (Jun 2025 – Actualidad, Alicante, España)  
-- Desarrollo de APIs en **Python** (FastAPI, Uvicorn) para inferencia de modelos con **vLLM** y **llama.cpp**.  
-- Orquestación de servicios con Docker Compose y creación de UIs con **React** y **Streamlit**.  
-- Liderazgo técnico: definición de workflows, asignación de tareas, revisión de código y coordinación de equipo.  
-- Gestión completa de pipelines DevOps: **GitLab CI/CD**, despliegues en **Azure, AWS y GCP**, aprovisionamiento de infraestructura y automatización.  
-- Integración de herramientas colaborativas (Slack, Jira) y aseguramiento de calidad en las entregas.  
-
-### 🔵 Analista de Software | **Minsait** (Ene 2023 – Nov 2024, Sevilla, España)  
-- Backend en **Java SpringBoot** sobre Docker y despliegue en **OpenShift/Kubernetes**.  
-- Gestión de señales con **MQTT**, **NodeRed** y **StreamSets**.  
-- Administración de BBDD SQL y NoSQL.  
-- Desarrollo full stack (HTML, CSS, JS, Thymeleaf) y testing (JUnit, Mockito, JMeter).  
-- Soporte a cliente mediante guardias *in-call*.  
-
-### 🔵 Solution Assistant | **NTT DATA** (Nov 2021 – Ene 2023, Sevilla, España)  
-- Desarrollo backend en **Java, SpringBoot, JSP, Jasper**.  
-- Migración de monolitos a microservicios.  
-- Consultas a BBDD SQL y NoSQL.  
-- Debugging e incidencias en entornos virtualizados.  
-- Documentación y trato directo con cliente.  
+📫 **Quick Contact:**
+- 📧 **Email:** antonio.buenoanton@gmail.com
+- 📞 **Phone:** +34 637 397 160
+- 💼 **LinkedIn:** [linkedin.com/in/abuenoan](https://www.linkedin.com/in/abuenoan)
 
 ---
 
-## 🚀 Proyectos Destacados
+## 💻 Professional Experience
+
+### 🟢 Technical Director & Lead Engineer | **Omega AI** (Jun 2025 – Present, Alicante, Spain / Remote)
+* **Strategic Leadership & PQC Security:** Directing the technical vision for a secure "binary-to-quantum" AI platform. I supervise the implementation of **Post-Quantum Cryptography (PQC)** standards, specifically applying algorithms like **Dilithium** to ensure cloud security and cryptographic resilience against quantum attacks.
+* **Rapid Career Progression:** Advanced from *Lead Backend Engineer* to *Team Leader* and finally *Technical Director* in under 4 months, taking ownership of the entire engineering roadmap, workflow definition, and team coordination (Jira, GitLab).
+* **AI Backend Development:** Architecting the core API infrastructure using **Python (FastAPI, Uvicorn)** for real-time LLM inference (integrating **vLLM** and **llama.cpp** with SSE streaming) and voice features.
+* **DevOps & Cloud Architecture:** Managing end-to-end pipelines via **GitLab CI/CD** and orchestrating secure multi-cloud deployments (**Azure, AWS, GCP**) using **Docker**. I ensure rigorous security standards and monitor system performance with **Grafana** and **Prometheus**.
+
+### 🔵 Software Analyst | **Minsait** (Jan 2023 – Nov 2024, Seville, Spain)
+- Backend development in **Java SpringBoot** on Docker and deployment on **OpenShift/Kubernetes**.
+- Signal management with **MQTT**, **NodeRed**, and **StreamSets**.
+- Administration of SQL and NoSQL databases.
+- Full stack development (HTML, CSS, JS, Thymeleaf) and testing (JUnit, Mockito, JMeter).
+- Client support via *on-call* shifts.
+
+### 🔵 Solution Assistant | **NTT DATA** (Nov 2021 – Jan 2023, Seville, Spain)
+- Backend development in **Java, SpringBoot, JSP, Jasper**.
+- Migration from monoliths to microservices.
+- SQL and NoSQL database queries.
+- Debugging and incident resolution in virtualized environments.
+- Documentation and direct client interaction.
+
+---
+
+## 🚀 Featured Projects
 
 ### 🛡️ ACR Vulnerability Density
-**Descripción breve**  
-Pipeline empírico y reproducible para analizar la densidad de vulnerabilidades y su evolución temporal en imágenes base almacenadas en Azure Container Registry (ACR), usando Trivy. Escanea imágenes seleccionadas en cuatro momentos (T0–T3), consolida los resultados y genera gráficos listos para tu TFM o análisis académico.
+**Brief Description**
+An empirical and reproducible pipeline to analyze vulnerability density and its temporal evolution in base images stored in Azure Container Registry (ACR), using Trivy. It scans selected images at four points in time (T0–T3), consolidates results, and generates charts ready for academic analysis or Master's thesis use.
 
-**Problema abordado**  
-Las imágenes base (como `alpine`, `debian-slim`, `ubuntu`, etc.) cambian con el tiempo, y sus vulnerabilidades pueden crecer o desplazarse incluso sin modificaciones directas. Este proyecto cuantifica ese **drift de vulnerabilidades**, ayudando a evaluar riesgos recurrentes en pipelines de CI/CD.
+**Problem Addressed**
+Base images (such as `alpine`, `debian-slim`, `ubuntu`, etc.) change over time, and their vulnerabilities can grow or shift even without direct modifications. This project quantifies that **vulnerability drift**, helping to evaluate recurrent risks in CI/CD pipelines.
 
-**Tecnologías usadas**  
-- Infraestructura como código: **Terraform** (infraestructura ACR + RG en Azure)  
-- Automatización de procesos: Shell scripts (`bash`) para login, pull/tag/push, escaneo con Trivy  
-- Análisis y visualización: **Python** (pandas + matplotlib)  
-- Diseño reproducible: `Makefile`, versiones fijadas (`pyenv`, Trivy DB), logs de herramientas para trazabilidad
+**Technologies Used**
+- Infrastructure as Code: **Terraform** (ACR + RG infrastructure in Azure)
+- Process Automation: Shell scripts (`bash`) for login, pull/tag/push, and Trivy scanning
+- Analysis & Visualization: **Python** (pandas + matplotlib)
+- Reproducible Design: `Makefile`, pinned versions (`pyenv`, Trivy DB), and tool logs for traceability
 
-**Impacto / Resultados**  
-- Permite medir la densidad de vulnerabilidad normalizada por MB: `(CRITICAL + HIGH) / size_mb`  
-- Generación de CSV comparativos y gráficos semanales (T0 a T3) con evolución de CVEs y crecimiento acumulado  
-- Alta reproducibilidad: versiones del escáner, identidades de paquetes y timestamps registrados automáticamente
+**Impact / Results**
+- Enables measurement of vulnerability density normalized by MB: `(CRITICAL + HIGH) / size_mb`
+- Generation of comparative CSVs and weekly charts (T0 to T3) showing CVE evolution and cumulative growth
+- High reproducibility: scanner versions, package identities, and timestamps are automatically logged
 
-**Enlace al proyecto completo:** [github.com/abuenoa/acr-vuln-density](https://github.com/abuenoa/acr-vuln-density)  
+**Link to full project:** [github.com/abuenoa/acr-vuln-density](https://github.com/abuenoa/acr-vuln-density)
 
 
 ### 🗂️ Architecture Diagram – Diagram-as-Code
-**Descripción breve**  
-Repositorio público de ejemplo en el que muestro cómo crear **diagramas de arquitectura como código** utilizando la librería [Diagrams de Mingrammer](https://diagrams.mingrammer.com/).  
-El proyecto genera un **diagrama multi-cloud genérico** (usuarios → CDN → WAF → Load Balancer → Web/API → Cache/Workers/DB, junto con CI/CD y observabilidad), demostrando buenas prácticas de documentación de arquitecturas sin exponer información sensible.
+**Brief Description**
+A public repository example where I demonstrate how to create **architecture diagrams as code** using the [Diagrams library by Mingrammer](https://diagrams.mingrammer.com/).
+The project generates a **generic multi-cloud diagram** (users → CDN → WAF → Load Balancer → Web/API → Cache/Workers/DB, along with CI/CD and observability), demonstrating best practices for documenting architectures without exposing sensitive information.
 
-**Problema abordado**  
-La documentación de arquitecturas suele quedar obsoleta rápidamente cuando se hace en diagramas manuales (Visio, Draw.io, etc.). Con un enfoque *diagram-as-code* se obtiene:
-- **Versionado en Git** (histórico de cambios y revisiones en PRs).  
-- **Reproducibilidad** (ejecución automática del script para regenerar diagramas).  
-- **Anonimización** de entornos reales mediante ejemplos genéricos.
+**Problem Addressed**
+Architecture documentation often becomes obsolete quickly when done via manual diagrams (Visio, Draw.io, etc.). A *diagram-as-code* approach provides:
+- **Git Versioning** (history of changes and revisions in PRs).
+- **Reproducibility** (automatic script execution to regenerate diagrams).
+- **Anonymization** of real environments using generic examples.
 
-**Tecnologías usadas**  
-- **Python** + [Diagrams (mingrammer)](https://github.com/mingrammer/diagrams)  
-- **Graphviz** como motor de renderizado  
-- Ejecución reproducible mediante entorno virtual y `requirements.txt`
+**Technologies Used**
+- **Python** + [Diagrams (mingrammer)](https://github.com/mingrammer/diagrams)
+- **Graphviz** as the rendering engine
+- Reproducible execution via virtual environment and `requirements.txt`
 
-**Mi rol y aportación**  
-- Creación de un **ejemplo multi-cloud genérico**, reutilizando distintos iconos (Azure, GCP, Redis, Kafka, GitLab, Jenkins, Prometheus, Grafana, etc.).  
-- Redacción de documentación y README orientados a mostrar el proyecto como **herramienta didáctica y de portfolio**.  
-- Configuración de buenas prácticas: `.gitignore`, licencia MIT, dependencias claras.  
+**My Role & Contribution**
+- Creation of a **generic multi-cloud example**, reusing different icons (Azure, GCP, Redis, Kafka, GitLab, Jenkins, Prometheus, Grafana, etc.).
+- Writing documentation and a README oriented towards showcasing the project as a **didactic and portfolio tool**.
+- Configuration of best practices: `.gitignore`, MIT license, clear dependencies.
 
-**Impacto / Resultados**  
-- Repo público que cualquiera puede clonar y usar como **plantilla de diagramas de arquitectura**.  
-- Proyecto que muestra mi capacidad de combinar **infraestructura cloud**, **buenas prácticas de DevOps** y **documentación clara**.  
-- Ejemplo reutilizable para equipos que necesiten diagramar sin exponer infra real.  
+**Impact / Results**
+- Public repo that anyone can clone and use as an **architecture diagram template**.
+- Demonstrates my ability to combine **cloud infrastructure**, **DevOps best practices**, and **clear documentation**.
+- Reusable example for teams needing to diagram without exposing real infra.
 
-**Enlace al proyecto completo:** [github.com/abuenoa/architecture-diagram-example](https://github.com/abuenoa/architecture-diagram-example)  
+**Link to full project:** [github.com/abuenoa/architecture-diagram-example](https://github.com/abuenoa/architecture-diagram-example)
 
-> Créditos: este proyecto se apoya en la librería **Diagrams** creada por [@mingrammer](https://github.com/mingrammer), a quien agradezco por hacer posible esta forma de diagramar infraestructuras con Python.  
+> Credits: This project relies on the **Diagrams** library created by [@mingrammer](https://github.com/mingrammer), whom I thank for enabling this way of diagramming infrastructure with Python.
 
 
-### ​⛅ Windy – WeatherAppBolton (colaboración de equipo)
+### ​⛅ Windy – WeatherAppBolton (Team Collaboration)
 
-**Descripción breve**  
-Portal frontend + backend serverless para consultar datos meteorológicos.  
-- **Frontend:** HTML/CSS/JS, interfaz sencilla y responsive.  
-- **Backend:** Funciones AWS Lambda en Python que consumen APIs (outras como OpenWeather o similares) y exponen datos al frontend.
+**Brief Description**
+Frontend + serverless backend portal for consulting weather data.
+- **Frontend:** HTML/CSS/JS, simple and responsive interface.
+- **Backend:** AWS Lambda functions in Python that consume APIs (such as OpenWeather or similar) and expose data to the frontend.
 
-**Problema abordado**  
-Crear una aplicación web ágil e intuitiva para consultar el tiempo, utilizando arquitectura serverless para reducir costes de infraestructura, escalabilidad y mantener un despliegue ligero y eficiente.
+**Problem Addressed**
+Creating an agile and intuitive web application to check the weather, using serverless architecture to reduce infrastructure costs, improve scalability, and maintain a lightweight and efficient deployment.
 
-**Tecnologías usadas**  
-- **Frontend:** HTML, CSS, JavaScript puro (sin frameworks pesados), diseño responsive.  
-- **Backend:** Python + AWS Lambda, posiblemente con layers o integración con API Gateway.  
-- **Infraestructura:** Serverless (sin servidor fijo), APIs externas, despliegue a través de GitHub Actions o manual.
+**Technologies Used**
+- **Frontend:** HTML, CSS, pure JavaScript (no heavy frameworks), responsive design.
+- **Backend:** Python + AWS Lambda, potentially with layers or API Gateway integration.
+- **Infrastructure:** Serverless (no fixed server), external APIs, deployment via GitHub Actions or manual.
 
-**Mi rol como colaborador**  
-- Implementación de funciones Lambda para consultar y procesar datos meteorológicos.
-- Gestión de Roles y Usuarios mediante el servicio IAM.
-- Gestión de APIs mediante API Gateway en AWS.
-- Gestión de Alarmas y notificaciones mediante SNS y CloudWatch.
-- Integración entre frontend y backend, garantizando baja latencia.  
-- Asistencia en despliegue y testing de extremo a extremo (end-to-end), incluyendo pruebas y ajustes UX.
+**My Role as Collaborator**
+- Implementation of Lambda functions to query and process weather data.
+- Management of Roles and Users via IAM service.
+- API management via AWS API Gateway.
+- Management of Alarms and notifications via SNS and CloudWatch.
+- Integration between frontend and backend, ensuring low latency.
+- Assistance in end-to-end deployment and testing, including UX testing and adjustments.
 
-**Enlace al proyecto completo:**  
-- Frontend: [WeatherAppBolton/windy-frontend](https://github.com/WeatherAppBolton/windy-frontend)  
+**Link to full project:**
+- Frontend: [WeatherAppBolton/windy-frontend](https://github.com/WeatherAppBolton/windy-frontend)
 - Backend: [WeatherAppBolton/windy-backend](https://github.com/WeatherAppBolton/windy-backend)
 
+---
 
-## 🎓 Formación  
+## 🎓 Education
 
-- **MSc Cloud Computing and Network Security** *(2024–2025)*  
-  *University of Bolton (Manchester, UK)* – DevOps, Pentesting, InfoSec y seguridad de redes.  
+- **MSc Cloud Computing and Network Security** *(2024–2025)*
+  *University of Bolton (Manchester, UK)* – DevOps, Pentesting, InfoSec, and Network Security.
 
-- **Grado en Ingeniería Informática y Tecnologías Virtuales** *(2018–2023)*  
-  *Universidad Loyola Andalucía (España)* – Especialización en desarrollo web/móvil, videojuegos y machine learning.  
-  *(Tercer mejor estudiante de la promoción)*  
+- **BSc in Computer Engineering and Virtual Technologies** *(2018–2023)*
+  *Universidad Loyola Andalucía (Spain)* – Specialization in web/mobile development, video games, and machine learning.
+  *(Third best student in the graduating class)*
 
 ---
 
-## 🛠️ Habilidades Técnicas  
+## 🛠️ Technical Skills
 
-**Lenguajes de programación:**  
-Java (SpringBoot) · Python (FastAPI) · HTML/CSS/JavaScript/PHP · Bash  
+**Programming Languages:**
+Java (SpringBoot) · Python (FastAPI) · HTML/CSS/JavaScript/PHP · Bash
 
-**Infraestructura Cloud:**  
-Kubernetes · Docker · AWS EKS · OpenShift · Azure · GCP · Terraform · Helm  
+**Cloud Infrastructure:**
+Kubernetes · Docker · AWS EKS · OpenShift · Azure · GCP · Terraform · Helm
 
-**Bases de datos:**  
-SQL · MongoDB · PostgreSQL · Redis  
+**Databases:**
+SQL · MongoDB · PostgreSQL · Redis
 
-**CI/CD & DevOps:**  
-GitLab · Jenkins · GitHub Actions · SonarQube · Jira · SourceTree  
+**CI/CD & DevOps:**
+GitLab · Jenkins · GitHub Actions · SonarQube · Jira · SourceTree
 
-**Streaming y datos en tiempo real:**  
-Kafka · MQTT · Zookeeper · StreamSets · NodeRed  
+**Streaming & Real-time Data:**
+Kafka · MQTT · Zookeeper · StreamSets · NodeRed
 
-**Monitorización y testing:**  
-Grafana · JMeter · JUnit · Mockito · Graylog · TestLink  
-
----
-
-## 🌍 Idiomas  
-- 🇪🇸 Español: Nativo  
-- 🇬🇧 Inglés: C1 Cambridge English Certificate (Julio 2024)  
+**Monitoring & Testing:**
+Grafana · JMeter · JUnit · Mockito · Graylog · TestLink
 
 ---
 
-## 🏆 Premios y Reconocimientos  
-- **Iberian 2025 – IT Challenge:** Top 11 de 500+ equipos.  
+## 🌍 Languages
+- 🇪🇸 Spanish: Native
+- 🇬🇧 English: C1 Cambridge English Certificate (July 2024)
 
 ---
 
-📄 **CV completo en PDF:** [Descargar aquí](mailto:antonio.buenoanton@gmail.com)  
+## 🏆 Awards & Recognitions
+- **Iberian 2025 – IT Challenge:** Top 11 out of 500+ teams.
 
-✨ Gracias por visitar mi perfil. Estoy abierto a colaboraciones, proyectos interesantes y oportunidades que me reten profesionalmente.  
+---
+
+📄 **Full CV in PDF:** [Download here](mailto:antonio.buenoanton@gmail.com)
+
+✨ Thanks for visiting my profile. I am open to collaborations, interesting projects, and opportunities that challenge me professionally.
