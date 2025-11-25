@@ -13,9 +13,9 @@ I am proactive, flexible, and passionate about teamwork, always maintaining high
 
 ## 💻 Professional Experience
 
-### 🟢 Technical Director & Lead Engineer | **Omega AI** (Jun 2025 – Present, Alicante, Spain / Remote)
+### 🟢 Technical Director & Lead Engineer | **Omega AI** (May 2025 – Present, Alicante, Spain / Remote)
 * **Strategic Leadership & PQC Security:** Directing the technical vision for a secure "binary-to-quantum" AI platform. I supervise the implementation of **Post-Quantum Cryptography (PQC)** standards, specifically applying algorithms like **Dilithium** to ensure cloud security and cryptographic resilience against quantum attacks.
-* **Rapid Career Progression:** Advanced from *Lead Backend Engineer* to *Team Leader* and finally *Technical Director* in under 4 months, taking ownership of the entire engineering roadmap, workflow definition, and team coordination (Jira, GitLab).
+* **Rapid Career Progression:** Advanced from *Team Leader* to *Technical Director* in under 4 months, taking ownership of the entire engineering roadmap, workflow definition, and team coordination (Jira, GitLab).
 * **AI Backend Development:** Architecting the core API infrastructure using **Python (FastAPI, Uvicorn)** for real-time LLM inference (integrating **vLLM** and **llama.cpp** with SSE streaming) and voice features.
 * **DevOps & Cloud Architecture:** Managing end-to-end pipelines via **GitLab CI/CD** and orchestrating secure multi-cloud deployments (**Azure, AWS, GCP**) using **Docker**. I ensure rigorous security standards and monitor system performance with **Grafana** and **Prometheus**.
 
@@ -128,26 +128,28 @@ Creating an agile and intuitive web application to check the weather, using serv
   *(Third best student in the graduating class)*
 
 ---
-
 ## 🛠️ Technical Skills
 
-**Programming Languages:**
-Java (SpringBoot) · Python (FastAPI) · HTML/CSS/JavaScript/PHP · Bash
+**🤖 AI Engineering & LLM Inference:**
+Python 3.11+ · PyTorch · **vLLM** · Triton Inference · ONNX Runtime · LangChain · MCP · Bathing Control
 
-**Cloud Infrastructure:**
-Kubernetes · Docker · AWS EKS · OpenShift · Azure · GCP · Terraform · Helm
+**🔐 Post-Quantum Cryptography (PQC) & Security:**
+**LibOQS** · OpenSSL 3.5 (OQS Provider) · **Kyber/Dilithium Implementation** · Nessus · Metasploit · Snort (IDS/IPS) · Nmap · Digital Forensics (Autopsy, Volatility)
 
-**Databases:**
-SQL · MongoDB · PostgreSQL · Redis
+**☁️ Cloud Native & Multi-Cloud Orchestration:**
+Kubernetes (K8s) · Docker · **OpenShift** · Helm · **Dstack** · **SkyPilot** · AWS · Azure · GCP · Terraform
 
-**CI/CD & DevOps:**
-GitLab · Jenkins · GitHub Actions · SonarQube · Jira · SourceTree
+**🚀 High-Performance Backend:**
+**Spring Boot 3 (Reactive Stack/WebFlux)** · Java (Modern Syntax) · FastAPI (Python) · Feign/ReactiveFeign · WebSocket · MinIO (S3)
 
-**Streaming & Real-time Data:**
-Kafka · MQTT · Zookeeper · StreamSets · NodeRed
+**⚡ Streaming & Data Engineering:**
+**Kafka** (w/ Zookeeper) · MQTT · StreamSets · NodeRed · Apache NiFi · RabbitMQ
 
-**Monitoring & Testing:**
-Grafana · JMeter · JUnit · Mockito · Graylog · TestLink
+**💾 Data Persistence:**
+PostgreSQL (TimeScale) · MongoDB · Redis (Cache) · MariaDB/MySQL
+
+**⚙️ DevOps, CI/CD & Observability:**
+GitLab CI/CD · Jenkins · Grafana · Prometheus · Graylog · JMeter (Stress Testing) · JUnit/Mockito
 
 ---
 
