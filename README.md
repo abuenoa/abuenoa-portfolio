@@ -164,6 +164,4 @@ GitLab CI/CD · Jenkins · Grafana · Prometheus · Graylog · JMeter (Stress Te
 
 ---
 
-📄 **Full CV in PDF:** [Download here](mailto:antonio.buenoanton@gmail.com)
-
 ✨ Thanks for visiting my profile. I am open to collaborations, interesting projects, and opportunities that challenge me professionally.
