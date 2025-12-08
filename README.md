@@ -1,37 +1,74 @@
 # 👋 Hi, I'm Antonio Bueno Antón
 
-Engineer specializing in **Cloud Computing**, **backend development**, and **cloud security**, with experience in secure infrastructure deployment using **Docker** and **Kubernetes**. I am currently pursuing a **Master's in Cloud Computing and Network Security** at the *University of Bolton* (UK).
+**Technical Director (CTO)** & **Cloud Security Architect** specializing in the intersection of high-availability infrastructure and defensive security.
 
-I am proactive, flexible, and passionate about teamwork, always maintaining high standards of quality and professionalism.
+I bridge the gap between **Cloud Engineering** and **Post-Quantum Cryptography**, designing systems that survive hostile environments. Currently leading the technical strategy at **Omega AI**, building the secure tunnel between binary computing and the quantum future.
 
-📫 **Quick Contact:**
-- 📧 **Email:** antonio.buenoanton@gmail.com
-- 📞 **Phone:** +34 637 397 160
-- 💼 **LinkedIn:** [linkedin.com/in/abuenoan](https://www.linkedin.com/in/abuenoan)
+I am an engineer who believes that security is not a feature; it is the architecture itself.
 
----
+## 📫 Quick Contact
+
+* 📧 **Email:** [antonio.buenoanton@gmail.com](mailto:antonio.buenoanton@gmail.com)
+
+* 📞 **Phone:** +34 637 397 160
+
+* 💼 **LinkedIn:** [linkedin.com/in/abuenoan](https://www.linkedin.com/in/abuenoan)
+
+* 🎓 **Education:** MSc Cloud Computing & Network Security (*University of Bolton, UK*)
 
 ## 💻 Professional Experience
 
-### 🟢 Technical Director & Lead Engineer | **Omega AI** (May 2025 – Present, Alicante, Spain / Remote)
-* **Strategic Leadership & PQC Security:** Directing the technical vision for a secure "binary-to-quantum" AI platform. I supervise the implementation of **Post-Quantum Cryptography (PQC)** standards, specifically applying algorithms like **Dilithium** to ensure cloud security and cryptographic resilience against quantum attacks.
-* **Rapid Career Progression:** Advanced from *Team Leader* to *Technical Director* in under 4 months, taking ownership of the entire engineering roadmap, workflow definition, and team coordination (Jira, GitLab).
-* **AI Backend Development:** Architecting the core API infrastructure using **Python (FastAPI, Uvicorn)** for real-time LLM inference (integrating **vLLM** and **llama.cpp** with SSE streaming) and voice features.
-* **DevOps & Cloud Architecture:** Managing end-to-end pipelines via **GitLab CI/CD** and orchestrating secure multi-cloud deployments (**Azure, AWS, GCP**) using **Docker**. I ensure rigorous security standards and monitor system performance with **Grafana** and **Prometheus**.
+### 🟢 Technical Director (CTO) | **Omega AI**
 
-### 🔵 Software Analyst | **Minsait** (Jan 2023 – Nov 2024, Seville, Spain)
-- Backend development in **Java SpringBoot** on Docker and deployment on **OpenShift/Kubernetes**.
-- Signal management with **MQTT**, **NodeRed**, and **StreamSets**.
-- Administration of SQL and NoSQL databases.
-- Full stack development (HTML, CSS, JS, Thymeleaf) and testing (JUnit, Mockito, JMeter).
-- Client support via *on-call* shifts.
+*(May 2025 – Present | Alicante, Spain / Remote)*
 
-### 🔵 Solution Assistant | **NTT DATA** (Nov 2021 – Jan 2023, Seville, Spain)
-- Backend development in **Java, SpringBoot, JSP, Jasper**.
-- Migration from monoliths to microservices.
-- SQL and NoSQL database queries.
-- Debugging and incident resolution in virtualized environments.
-- Documentation and direct client interaction.
+Leading the engineering roadmap for a **Quantum-Resilient AI Platform**. I advanced from *Team Leader* to *Technical Director* in under 4 months by restructuring the engineering culture and optimizing delivery pipelines.
+
+* **Strategic Leadership & PQC Security:** Directing the technical vision for a secure "binary-to-quantum" AI platform. I supervise the architectural integration of **Post-Quantum Cryptography (PQC)** standards (NIST FIPS 203/204), applying algorithms like **Dilithium** to ensure data sovereignty against "Harvest Now, Decrypt Later" threats.
+
+* **DevOps & Infrastructure Optimization:** Re-architected the CI/CD strategy using **GitLab**. Reduced pipeline runtime by **83%** and slashed data transfer costs by **95%** through modularization and artifact optimization.
+
+* **AI Backend Architecture:** Architecting the core API infrastructure using **Python (FastAPI)** for real-time LLM inference (integrating **vLLM** and **llama.cpp** with SSE streaming).
+
+* **Cloud Hardening:** Managing secure multi-cloud deployments (**Azure, AWS**) using **Docker** and **Kubernetes**. Implementation of strict **Zero Trust** policies (mTLS) and observability suites with **Grafana** and **Prometheus**.
+
+### 🔵 Senior Cloud Consultant & Analyst | **Minsait (Indra)**
+
+*(Jan 2023 – Nov 2024 | Seville, Spain)*
+
+Core engineer for **Onesait Efficiency** and **Onesait Platform**, handling critical IoT data ingestion and platform engineering for Smart Energy sectors.
+
+* **Global IoT Architecture:** Engineered data pipelines for a multi-tenant platform managing hundreds of heterogeneous devices across **LATAM and EMEA**. Ensured high-throughput ingestion using **Apache Kafka** and **MQTT**.
+
+* **Platform Engineering:** Developed custom automation modules (nodes) for **Node-RED** using Java/Spring Boot, enabling other developers to orchestrate complex workflows without touching low-level code.
+
+* **Microservices Orchestration:** Deployed and maintained scalable backend services on **OpenShift (Kubernetes)**, ensuring isolation and performance in a multi-client environment.
+
+* **Tech Stack:** Java Spring Boot, StreamSets, Node-RED, Docker, OpenShift.
+
+### 🔵 Solution Assistant | **NTT DATA**
+
+*(Nov 2021 – Jan 2023 | Seville, Spain)*
+
+Software Engineer for **SIGLO** (Sistema Integral de Gestión Logística), the mission-critical supply chain platform for the **Andalusian Health Service (SAS)**.
+
+* **Legacy to Microservices Migration:** Played a key role in the architectural transition of a massive public health platform, moving from a monolithic legacy environment to a modern **Microservices architecture** while ensuring service continuity for hospitals.
+
+* **Critical Infrastructure:** Developed and deployed financial and logistics features in a high-pressure live environment.
+
+* **DevOps Adoption:** Helped standardize deployment pipelines using **Jenkins**, **SonarQube**, and **Git**, introducing modern CI/CD practices to the development lifecycle.
+
+## 🛠 Core Technical Skills
+
+| Domain | Technologies | 
+ | ----- | ----- | 
+| **Cloud & DevOps** | AWS, Azure, Docker, Kubernetes, OpenShift, GitLab CI/CD, Terraform | 
+| **Security** | Post-Quantum Cryptography (Dilithium/Kyber), Zero Trust, mTLS, OAuth2 | 
+| **Backend** | Python (FastAPI), Java (Spring Boot), Node.js | 
+| **Data & IoT** | Kafka, MQTT, StreamSets, Node-RED, SQL/NoSQL, IPFS | 
+| **Observability** | Prometheus, Grafana, SonarQube | 
+
+*Last updated: December 2025*
 
 ---
 
