@@ -6,7 +6,8 @@
 I design cloud security **from inside the code**, not from PDFs.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abuenoan)
-[![CV](https://img.shields.io/badge/CV-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](./CV/Antonio_Bueno_Anton_CV.pdf)
+[![CV ENG](https://img.shields.io/badge/CV-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](./BuenoAnton_Antonio_CV_2025(ENG).pdf)
+[![CV ESP](https://img.shields.io/badge/CV-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](./BuenoAnton_Antonio_CV_2025(ESP).pdf)
 [![Email](https://img.shields.io/badge/Email-Contact-black?style=for-the-badge&logo=gmail)](mailto:antonio.buenoanton@gmail.com)
 
 </div>
