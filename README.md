@@ -13,6 +13,11 @@ I design cloud security **from inside the code**, not from PDFs.
 
 ---
 
+<div align="center">
+  <img src="./assets/banner.png" width="100%" />
+</div>
+
+
 ## 🧠 whoami
 
 Security architects often clash with developers because they don’t speak the same language.  
@@ -49,31 +54,34 @@ My work focuses on:
 
 ---
 
-
-::contentReference[oaicite:0]{index=0}
-
-
 ## 🚀 Featured Projects
 
-### 🛡️ ACR Vulnerability Density
-Empirical analysis of **vulnerability drift** in container base images.
+<!-- You can replace images with GIFs or videos -->
 
-- Normalized CVE density: `(CRITICAL + HIGH) / MB`
-- Fully reproducible (Terraform, pinned Trivy DB)
-- Oriented to CI/CD security risk evaluation
-
-🔗 https://github.com/abuenoa/acr-vuln-density
-
----
-
-### 🗂️ Architecture Diagram as Code
-Cloud architecture documentation using **Python as source of truth**.
-
-- Multi-cloud reference design
-- Git-versioned & reproducible diagrams
-- CI/CD and observability included
-
-🔗 https://github.com/abuenoa/architecture-diagram-example
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./assets/acr-vuln.png" />
+      <br/>
+      <b>🛡️ ACR Vulnerability Density</b><br/>
+      Empirical analysis of vulnerability drift in container base images.<br/><br/>
+      • Normalized CVE density metrics<br/>
+      • Fully reproducible (Terraform + Trivy)<br/>
+      • CI/CD security risk evaluation<br/><br/>
+      <a href="https://github.com/abuenoa/acr-vuln-density">View project →</a>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./assets/architecture-diagram.png" />
+      <br/>
+      <b>🗂️ Architecture Diagram as Code</b><br/>
+      Cloud architecture documented using Python as source of truth.<br/><br/>
+      • Multi-cloud reference design<br/>
+      • Git-versioned & reproducible diagrams<br/>
+      • CI/CD & observability included<br/><br/>
+      <a href="https://github.com/abuenoa/architecture-diagram-example">View project →</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
