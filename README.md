@@ -1,3 +1,8 @@
+
+<div align="center">
+  <img src="./assets/banner.png" width="100%" />
+</div>
+---
 <div align="center">
 
 # 👋 Antonio Bueno Antón  
@@ -13,11 +18,6 @@ I design cloud security **from inside the code**, not from PDFs.
 </div>
 
 ---
-
-<div align="center">
-  <img src="./assets/banner.png" width="100%" />
-</div>
-
 
 ## 🧠 whoami
 
